@@ -5,5 +5,8 @@ Team Members:
 lsblk was used to find out the raw device name.
 
 lsblk -o NAME,PHY-SeC was used to find the sector size
+We can also use fdisk to find this as
+sudo fdisk -l
+which gives the logical and physical sector size.
 
 
