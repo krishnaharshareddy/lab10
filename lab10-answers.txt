@@ -4,3 +4,6 @@ Team Members:
 
 lsblk was used to find out the raw device name.
 
+lsblk -o NAME,PHY-SeC was used to find the sector size
+
+
