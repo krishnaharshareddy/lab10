@@ -1,0 +1,2 @@
+lsblk was used to find out the raw device name.
+
