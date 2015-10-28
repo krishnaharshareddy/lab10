@@ -6,8 +6,8 @@ fx.close()
 for i in range(1,20):
 	m=2**i;
 	for j in range(1,10):
-		os.system("sh -c 'echo 1 >/proc/sys/vm/drop_caches'")
-		print ("Dropped Cache")
+		#~ os.system("sh -c 'echo 1 >/proc/sys/vm/drop_caches'")
+		#~ print ("Dropped Cache")
 		os.system("./a.out "+str(m)+" "+str(i)+" >output")
 		print ("Running Prog")
 		f=open('output','r')
