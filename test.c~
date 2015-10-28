@@ -1,0 +1,11 @@
+#include "stdio.h"
+
+int main()
+{
+  FILE* fp;
+  fp = fopen("/dev/sda","r");
+  char buff[255];
+  fgets(buff,255,fp);
+  printf("%s\n",buff);
+}
+  
