@@ -1,2 +1,6 @@
+Team Members:
+- Krishna Harsha (130050076)
+- Shouvanik Chakrabarti (130050072)
+
 lsblk was used to find out the raw device name.
 
